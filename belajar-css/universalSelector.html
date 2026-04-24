@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Universal Selector</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="universalSelector.css">
+    </head>
+    <body>
+        <p>
+            Ini merupakan paragraf biasa atau tidak menerapkan atribut apapun. Maka teks pada paragraf ini akan berwarna hijau
+        </p>
+        <p lang="en">
+            This is an English paragraph contains en-us value of lang attribute, so this text will be green and italic.
+        </p>
+        
+        <h1>
+            Ini Merupakan sebuah header biasa
+        </h1>
+        <h1 lang="en">
+            This is an English Header
+        </h1>
+
+        <p class="warning">
+            Perhatikan paragraf ini! Paragraf ini merupakan paragraf yang memiliki kelas bernilai warning, 
+            sehingga teks dari paragraf ini akan berwarna merah
+        </p>
+        <div id="content">
+            <p>
+                 Ini merupakan sebuah teks di dalam sebuah div yang memiliki id bernilai
+                "content", seharusnya paragraf ini dibungkus dalam border yang memiliki
+                padding 20px
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+p{
+    border: 4px, lightblue, solid;
+    width: 350px;
+}
+
+p.example{
+    padding: 10px; 
+}

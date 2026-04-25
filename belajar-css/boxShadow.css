@@ -1,0 +1,7 @@
+.box {
+    height: 200px;
+    width: 200px;
+
+    box-shadow: 6px 6px 5px 10px #666666;
+    background-color: greenyellow;
+}

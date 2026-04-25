@@ -1,0 +1,12 @@
+.box {
+    border-left-style: double;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-top-style: solid;
+    
+    border-color: red;
+
+    border-width: 4px;
+    width: 200x;
+    height: 40px;
+}

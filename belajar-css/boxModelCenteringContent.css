@@ -1,0 +1,13 @@
+.box {
+    border: 2px, blue, solid;
+    width: 150px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.box.center{
+    margin: 0 auto;  
+
+   
+}
